@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB 2</title>
+    <style>
+        h1, h2, h3, h4, h5, h6{
+            color: aquamarine;
+        }
+        p{
+            color: bisque;
+        }
+        #abc{
+            color: brown;
+        }
+        .efg{
+            color: aqua;
+        }
+        
+        div[class~="test1"]{
+            color: blue;
+        }
+        div[class~="test2"]{
+            color: gold;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-light bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="https://c7.uihere.com/files/907/970/515/computer-icons-home-house-home-thumb.jpg" width="30" height="30" alt="">
+        </a>
+      </nav>
+    <!-- Hello Comment-->
+    <h1>My heading H1</h1>
+    <h2>My heading H2</h2>
+    <h3>My heading H3</h3>
+    <h4>My heading H4</h4>
+    <h5>My heading H5</h5>
+    <h6>My heading H6</h6>
+    <hr>
+    <p align="left">Hello paragraph align left</p>
+    <p align="center">Hello paragraph align center</p>
+    <p align="right">Hello paragraph align right</p>
+    <hr>
+    <p valign="left">valign left</p>
+    <p valign="center">valign center</p>
+    <p valign="right">valign right</p>
+    <p>Lorem <b> ipsum dolor sit</b> amet consectetur <i> adipisicing elit</i>. Neque maiores impedit minus a! 
+        Quod deserunt libero rerum et nobis quasi <u> tempora recusandae expedita</u>, similique est dicta 
+        atque quo? Officiis, consequatur.
+    </p>
+    <hr>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1920px-Star_Wars_Logo.svg.png" alt="" width="200" height="150">
+    <hr><br>
+    <a href="https://th.wikipedia.org/wiki/%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%A3%E0%B9%8C_%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%AA">Go to wigipedia STARWAR in page</a>
+    <br>
+    <a href="#">Dead Link</a>
+    <br>
+    <a href="https://th.wikipedia.org/wiki/%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%A3%E0%B9%8C_%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%AA" target="_blank">Go to wigipedia STARWAR blank</a>
+    <br><hr>
+    <a href="https://github.com"><img src="https://miro.medium.com/max/1406/1*dDNpLKu_oTLzStsDTnkJ-g.png" alt="github" width="280" height="120"></a>
+    <hr>
+    <div class="test1">
+        <p>Name ul</p>
+        <ul>
+            <li>IT</li>
+            <li>JAME</li>
+            <li>KAO</li>
+            <li>KAN</li>
+        </ul>
+    </div>
+    <br>
+    <div class="test2" id="ol">
+        <p>Name ol</p>
+        <ol>
+            <li>IT</li>
+            <li>JAME</li>
+            <li>KAO</li>
+            <li>KAN</li>
+        </ol>
+    </div>
+    <hr>
+    <table border="1">
+        <tr>
+            <th>thnaja</th>
+        </tr>
+        <tr>
+            <td>tdnaja</td>
+        </tr>
+    </table>
+    <hr>
+    <div>
+        <form action="#">
+            <h3>FORM REGISTER</h3>
+            NAME : <input type="text" name="namena" maxlength="10" placeholder="namenaja">
+            <br><br>
+            LASTNAME : <input type="text" name="lastnamena" maxlength="10" placeholder="lastnamenaja">
+            <br><br>
+            TEL : <input type="text" name="tel" maxlength="10" placeholder="08xxxxxxxx">
+            <br><br>
+            RADIO : <input type="radio" name="radio1" value="radio1">radio1 <input type="radio" name="radio1" value="radio2">radio2
+            <br><br>
+            CHECKBOX : <input type="checkbox" name="c1" value="c1">checkbox1 <input type="checkbox" name="c2" value="c2">checkbox2
+            <br><br>
+            SELECT : <select name="select" id="">
+                <option value="" ></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <br><br>
+            Comment : <br>
+            <textarea name="comment" cols="30" rows="5" placeholder="Please comment here"></textarea>
+            <br>br
+            FILE : <input type="file" name="file" accept=".pdf">
+            <br><br>
+            <input type="submit" name="submit" value="submitnaja">
+            <input type="reset" name="reset" value="restnaja">
+            <input type="button" name="ok" value="oknaja">
+        </form>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                Hello
+            </div>
+            <div class="col-sm-12 col-md-4">
+                World
+            </div>
+            <div class="col-sm-12 col-md-4">
+                !
+            </div>
+        </div>
+    </div>
+    <hr>
+    <form action="#" id="formb">
+        <div class="container">
+            <div class="row" id="test" style="background-color: yellow;">
+                <div class="col-sm-12 col-md-2 col-lg-2" id="namekuy">NAME : </div>
+                <div class="col-sm-12 col-md-10 col-lg-10"><input type="text" id="name" name="namena" maxlength="10" placeholder="namenaja"></div>
+                <div class="col-sm-12 col-md-2 col-lg-2">LASTNAME : </div>
+                <div class="col-sm-12 col-md-10 col-lg-10"><input type="text" id="lastname"name="lastnamena" maxlength="10" placeholder="lastnamenaja"></div>
+                <div class="col-sm-12 col-md-2 col-lg-2">TEL : </div>
+                <div class="col-sm-12 col-md-10 col-lg-10"><input type="text" name="tel" maxlength="10" placeholder="08xxxxxxxx"></div>
+                <div class="col-sm-12 col-md-2 col-lg-2">RADIO : </div>
+                <div class="col-sm-12 col-md-10 col-lg-10"><input type="radio" name="radio1" value="radio1">radio1 <input type="radio" name="radio1" value="radio2">radio2</div>
+                <div class="col-sm-12 col-md-2 col-lg-2">CHECKBOX : </div>
+                <div class="col-sm-12 col-md-10 col-lg-10"><input type="checkbox" name="c1" value="c1">checkbox1 <input type="checkbox" name="c2" value="c2">checkbox2</div>
+                <div class="col-sm-12 col-md-2 col-lg-2"> SELECT : </div>
+                <div class="col-sm-12 col-md-10 col-lg-10"><select name="select" id="">
+                                            <option value="" ></option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                        </select>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2">Comment : </div>
+                <div class="col-sm-12 col-md-10 col-lg-10"><textarea name="comment" cols="30" rows="5" placeholder="Please comment here"></textarea></div>
+                <div class="col-sm-12 col-md-2 col-lg-2">FILE : </div>
+                <div class="col-sm-12 col-md-10 col-lg-10"><input type="file" name="file" accept=".pdf"></div>
+                <div class="col-sm-12 col-md-12 col-lg-12"> </div>
+                <div class="col-sm-12 col-md-10 col-lg-10"><button type="submit" class="btn btn-primary">SUBMIT</button><button type="reset" class="btn btn-danger">RESET</button></div>
+            </div>
+        </div>
+    </form>
+    <hr>
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+    </div>
+    <hr>
+</body>
+</html>
